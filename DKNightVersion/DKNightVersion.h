@@ -25,6 +25,7 @@ FOUNDATION_EXPORT const unsigned char DKNightVersionVersionString[];
 #import <DKNightVersion/DKImage.h>
 #import <DKNightVersion/DKNightVersionManager.h>
 #import <DKNightVersion/NSObject+Night.h>
+#import <DKNightVersion/NSObject+DeallocBlock.h>
 #import <DKNightVersion/DKAlpha.h>
 
 #import <DKNightVersion/DKColorTable.h>
@@ -49,6 +50,7 @@ FOUNDATION_EXPORT const unsigned char DKNightVersionVersionString[];
 #import <DKNightVersion/UIButton+Night.h>
 #import <DKNightVersion/UIImageView+Night.h>
 
+#import <DKNightVersion/UINavigationBar+Animation.h>
 
 #define _DKSetterWithPROPERTYerty(LOWERCASE) [NSString stringWithFormat:@"set%@:", [[[LOWERCASE substringToIndex:1] uppercaseString] stringByAppendingString:[LOWERCASE substringFromIndex:1]]]
 
