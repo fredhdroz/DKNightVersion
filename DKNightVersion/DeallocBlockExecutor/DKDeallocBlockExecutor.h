@@ -10,8 +10,8 @@
 
 @interface DKDeallocBlockExecutor : NSObject
 
-+ (instancetype)executorWithDeallocBlock:(void (^)())deallocBlock;
++ (instancetype)executorWithDeallocBlock:(void (^)(void))deallocBlock;
 
-@property (nonatomic, copy) void (^deallocBlock)();
+@property (nonatomic, copy) void (^deallocBlock)(void);
 
 @end
