@@ -11,7 +11,6 @@
 		7261ADFA1CB9FB2D007E283C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7261ADF41CB9FB2D007E283C /* RootViewController.m */; };
 		7261ADFB1CB9FB2D007E283C /* SuccViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7261ADF61CB9FB2D007E283C /* SuccViewController.m */; };
 		7261ADFC1CB9FB2D007E283C /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7261ADF81CB9FB2D007E283C /* TableViewCell.m */; };
-		7292FC181D673B030054F827 /* DKNightVersion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7292FC171D673B030054F827 /* DKNightVersion.framework */; };
 		729323FA1CB9FAF1009E544E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 729323F91CB9FAF1009E544E /* main.m */; };
 		729323FD1CB9FAF1009E544E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 729323FC1CB9FAF1009E544E /* AppDelegate.m */; };
 		729324001CB9FAF1009E544E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729323FF1CB9FAF1009E544E /* ViewController.m */; };
@@ -19,7 +18,26 @@
 		729324051CB9FAF1009E544E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729324041CB9FAF1009E544E /* Assets.xcassets */; };
 		729324081CB9FAF1009E544E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729324061CB9FAF1009E544E /* LaunchScreen.storyboard */; };
 		72E18B9F1CBA038E0004EBB2 /* DKColorTable.txt in Resources */ = {isa = PBXBuildFile; fileRef = 72E18B9E1CBA038E0004EBB2 /* DKColorTable.txt */; };
+		B675FD7C1F61945D006C5D96 /* libextobjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B639A4B01F61910900FE91B1 /* libextobjc.framework */; };
+		B675FD7D1F61945D006C5D96 /* libextobjc.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B639A4B01F61910900FE91B1 /* libextobjc.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B675FD851F6194AB006C5D96 /* DKNightVersion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B675FD841F6194AB006C5D96 /* DKNightVersion.framework */; };
+		B675FD861F6194AB006C5D96 /* DKNightVersion.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B675FD841F6194AB006C5D96 /* DKNightVersion.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B675FD7B1F61943A006C5D96 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B675FD7D1F61945D006C5D96 /* libextobjc.framework in Embed Frameworks */,
+				B675FD861F6194AB006C5D96 /* DKNightVersion.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7261ADF11CB9FB2D007E283C /* PresentingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentingViewController.h; sourceTree = "<group>"; };
@@ -30,7 +48,6 @@
 		7261ADF61CB9FB2D007E283C /* SuccViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccViewController.m; sourceTree = "<group>"; };
 		7261ADF71CB9FB2D007E283C /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		7261ADF81CB9FB2D007E283C /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
-		7292FC171D673B030054F827 /* DKNightVersion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DKNightVersion.framework; path = "../Build/Products/Debug-iphonesimulator/DKNightVersion.framework"; sourceTree = "<group>"; };
 		729323F51CB9FAF1009E544E /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729323F91CB9FAF1009E544E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		729323FB1CB9FAF1009E544E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +59,8 @@
 		729324071CB9FAF1009E544E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		729324091CB9FAF1009E544E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72E18B9E1CBA038E0004EBB2 /* DKColorTable.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DKColorTable.txt; path = ../../DKNightVersion/ColorTable/DKColorTable.txt; sourceTree = "<group>"; };
+		B639A4B01F61910900FE91B1 /* libextobjc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libextobjc.framework; path = ../Carthage/Build/iOS/libextobjc.framework; sourceTree = "<group>"; };
+		B675FD841F6194AB006C5D96 /* DKNightVersion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DKNightVersion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7292FC181D673B030054F827 /* DKNightVersion.framework in Frameworks */,
+				B675FD7C1F61945D006C5D96 /* libextobjc.framework in Frameworks */,
+				B675FD851F6194AB006C5D96 /* DKNightVersion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +79,10 @@
 		729323EC1CB9FAF1009E544E = {
 			isa = PBXGroup;
 			children = (
-				7292FC171D673B030054F827 /* DKNightVersion.framework */,
+				B675FD841F6194AB006C5D96 /* DKNightVersion.framework */,
 				729323F71CB9FAF1009E544E /* Example */,
 				729323F61CB9FAF1009E544E /* Products */,
+				B639A4AF1F61910900FE91B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +127,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B639A4AF1F61910900FE91B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B639A4B01F61910900FE91B1 /* libextobjc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,6 +145,7 @@
 				729323F11CB9FAF1009E544E /* Sources */,
 				729323F21CB9FAF1009E544E /* Frameworks */,
 				729323F31CB9FAF1009E544E /* Resources */,
+				B675FD7B1F61943A006C5D96 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -300,6 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.draveness.Example;
@@ -312,6 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.draveness.Example;
