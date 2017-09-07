@@ -10,7 +10,7 @@
 
 @implementation DKDeallocBlockExecutor
 
-+ (instancetype)executorWithDeallocBlock:(void (^)())deallocBlock {
++ (instancetype)executorWithDeallocBlock:(void (^)(void))deallocBlock {
     DKDeallocBlockExecutor *o = [DKDeallocBlockExecutor new];
     o.deallocBlock = deallocBlock;
     return o;
