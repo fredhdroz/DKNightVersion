@@ -25,6 +25,7 @@ FOUNDATION_EXPORT const unsigned char DKNightVersionVersionString[];
 #import <DKNightVersion/DKImage.h>
 #import <DKNightVersion/DKNightVersionManager.h>
 #import <DKNightVersion/NSObject+Night.h>
+#import <DKNightVersion/NSObject+DeallocBlock.h>
 #import <DKNightVersion/DKAlpha.h>
 
 #import <DKNightVersion/DKColorTable.h>
@@ -48,6 +49,8 @@ FOUNDATION_EXPORT const unsigned char DKNightVersionVersionString[];
 #import <DKNightVersion/UIView+Night.h>
 #import <DKNightVersion/UIButton+Night.h>
 #import <DKNightVersion/UIImageView+Night.h>
+
+#import <DKNightVersion/UINavigationBar+Animation.h>
 
 #import <DKNightVersion/metamacros.h>
 #import <DKNightVersion/EXTKeyPathCoding.h>
