@@ -49,8 +49,6 @@ FOUNDATION_EXPORT const unsigned char DKNightVersionVersionString[];
 #import <DKNightVersion/UIButton+Night.h>
 #import <DKNightVersion/UIImageView+Night.h>
 
-#import <DKNightVersion/metamacros.h>
-#import <DKNightVersion/EXTKeyPathCoding.h>
 
 #define _DKSetterWithPROPERTYerty(LOWERCASE) [NSString stringWithFormat:@"set%@:", [[[LOWERCASE substringToIndex:1] uppercaseString] stringByAppendingString:[LOWERCASE substringFromIndex:1]]]
 

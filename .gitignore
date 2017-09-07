@@ -28,3 +28,4 @@ fastlane/report.xml
 #Pods/
 
 .DS_Store
+Carthage/Checkouts

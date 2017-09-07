@@ -56,8 +56,6 @@
 		72E18B871CBA03480004EBB2 /* UIImageView+Night.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E18B4A1CBA03480004EBB2 /* UIImageView+Night.m */; };
 		72E18B881CBA03480004EBB2 /* UINavigationBar+Animation.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E18B4B1CBA03480004EBB2 /* UINavigationBar+Animation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72E18B891CBA03480004EBB2 /* UINavigationBar+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E18B4C1CBA03480004EBB2 /* UINavigationBar+Animation.m */; };
-		72E18B8A1CBA03480004EBB2 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E18B4E1CBA03480004EBB2 /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72E18B8B1CBA03480004EBB2 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E18B4F1CBA03480004EBB2 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72E18B8C1CBA03480004EBB2 /* DKDeallocBlockExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E18B511CBA03480004EBB2 /* DKDeallocBlockExecutor.h */; };
 		72E18B8D1CBA03480004EBB2 /* DKDeallocBlockExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E18B521CBA03480004EBB2 /* DKDeallocBlockExecutor.m */; };
 		72E18B8E1CBA03480004EBB2 /* NSObject+DeallocBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E18B531CBA03480004EBB2 /* NSObject+DeallocBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -76,6 +74,7 @@
 		72E18B9B1CBA03480004EBB2 /* DKColorTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E18B631CBA03480004EBB2 /* DKColorTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72E18B9C1CBA03480004EBB2 /* DKColorTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E18B641CBA03480004EBB2 /* DKColorTable.m */; };
 		72E18B9D1CBA03480004EBB2 /* DKColorTable.txt in Resources */ = {isa = PBXBuildFile; fileRef = 72E18B651CBA03480004EBB2 /* DKColorTable.txt */; };
+		B639A4AE1F618F8E00FE91B1 /* libextobjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B639A4AD1F618F8E00FE91B1 /* libextobjc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,8 +129,6 @@
 		72E18B4A1CBA03480004EBB2 /* UIImageView+Night.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Night.m"; sourceTree = "<group>"; };
 		72E18B4B1CBA03480004EBB2 /* UINavigationBar+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Animation.h"; sourceTree = "<group>"; };
 		72E18B4C1CBA03480004EBB2 /* UINavigationBar+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Animation.m"; sourceTree = "<group>"; };
-		72E18B4E1CBA03480004EBB2 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
-		72E18B4F1CBA03480004EBB2 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
 		72E18B511CBA03480004EBB2 /* DKDeallocBlockExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDeallocBlockExecutor.h; sourceTree = "<group>"; };
 		72E18B521CBA03480004EBB2 /* DKDeallocBlockExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDeallocBlockExecutor.m; sourceTree = "<group>"; };
 		72E18B531CBA03480004EBB2 /* NSObject+DeallocBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DeallocBlock.h"; sourceTree = "<group>"; };
@@ -150,6 +147,8 @@
 		72E18B631CBA03480004EBB2 /* DKColorTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKColorTable.h; sourceTree = "<group>"; };
 		72E18B641CBA03480004EBB2 /* DKColorTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKColorTable.m; sourceTree = "<group>"; };
 		72E18B651CBA03480004EBB2 /* DKColorTable.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DKColorTable.txt; sourceTree = "<group>"; };
+		B639A4AB1F618F2500FE91B1 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		B639A4AD1F618F8E00FE91B1 /* libextobjc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libextobjc.framework; path = Carthage/Build/iOS/libextobjc.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B639A4AE1F618F8E00FE91B1 /* libextobjc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,8 +168,10 @@
 			children = (
 				729A5D5F1CBB347700E8A164 /* README.md */,
 				729A5D5D1CBA0CC600E8A164 /* DKNightVersion.podspec */,
+				B639A4AB1F618F2500FE91B1 /* Cartfile */,
 				729323361CB9F98C009E544E /* DKNightVersion */,
 				729323351CB9F98C009E544E /* Products */,
+				B639A4AC1F618F8D00FE91B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,7 +190,6 @@
 				72E18B591CBA03480004EBB2 /* Core */,
 				72E18B271CBA03480004EBB2 /* UIKit */,
 				72E18B461CBA03480004EBB2 /* Manual */,
-				72E18B4D1CBA03480004EBB2 /* extobjc */,
 				72E18B501CBA03480004EBB2 /* DeallocBlockExecutor */,
 				72E18B551CBA03480004EBB2 /* CoreAnimation */,
 				72E18B621CBA03480004EBB2 /* ColorTable */,
@@ -253,15 +254,6 @@
 			path = Manual;
 			sourceTree = "<group>";
 		};
-		72E18B4D1CBA03480004EBB2 /* extobjc */ = {
-			isa = PBXGroup;
-			children = (
-				72E18B4E1CBA03480004EBB2 /* EXTKeyPathCoding.h */,
-				72E18B4F1CBA03480004EBB2 /* metamacros.h */,
-			);
-			path = extobjc;
-			sourceTree = "<group>";
-		};
 		72E18B501CBA03480004EBB2 /* DeallocBlockExecutor */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,6 +304,14 @@
 			path = ColorTable;
 			sourceTree = "<group>";
 		};
+		B639A4AC1F618F8D00FE91B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B639A4AD1F618F8E00FE91B1 /* libextobjc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -323,14 +323,12 @@
 				72E18B7E1CBA03480004EBB2 /* UITextView+Night.h in Headers */,
 				72E18B821CBA03480004EBB2 /* UIView+Night.h in Headers */,
 				72E18B951CBA03480004EBB2 /* DKImage.h in Headers */,
-				72E18B8A1CBA03480004EBB2 /* EXTKeyPathCoding.h in Headers */,
 				7287AB781D0437A300D544B4 /* UITextView+Keyboard.h in Headers */,
 				72E18B761CBA03480004EBB2 /* UISwitch+Night.h in Headers */,
 				72E18B701CBA03480004EBB2 /* UIProgressView+Night.h in Headers */,
 				72E18B6A1CBA03480004EBB2 /* UILabel+Night.h in Headers */,
 				72E18B801CBA03480004EBB2 /* UIToolbar+Night.h in Headers */,
 				72E18B881CBA03480004EBB2 /* UINavigationBar+Animation.h in Headers */,
-				72E18B8B1CBA03480004EBB2 /* metamacros.h in Headers */,
 				72E18B901CBA03480004EBB2 /* CALayer+Night.h in Headers */,
 				7295D7CB1D07E2A000525182 /* UISearchBar+Keyboard.h in Headers */,
 				72E18B6E1CBA03480004EBB2 /* UIPageControl+Night.h in Headers */,
@@ -566,6 +564,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 616;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DKNightVersion/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -583,6 +585,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 616;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DKNightVersion/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
